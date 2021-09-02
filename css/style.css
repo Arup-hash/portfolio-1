@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-wrapper > .image-bg {
+  background: #1A1721 !important;
+}
+
+.main-wrapper > .inner-wrapper, .main-wrapper .get-mail {
+  background-image: url("../img/banner-bg.jpg");
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.main-wrapper > .inner-wrapper > .hr, .main-wrapper .get-mail > .hr {
+  width: 200px;
+  margin: 0 auto;
+  color: #2A2633;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper, .main-wrapper .get-mail > .body-wrapper {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro, .main-wrapper .get-mail > .body-wrapper > .intro {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent;
+  padding: 8rem;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro > h1, .main-wrapper .get-mail > .body-wrapper > .intro > h1 {
+  margin: 2rem 0;
+  color: #8A3A60 !important;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro > p, .main-wrapper .get-mail > .body-wrapper > .intro > p {
+  margin: 2rem 0;
+  color: #8F4066;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro > input, .main-wrapper .get-mail > .body-wrapper > .intro > input {
+  font-size: 1.125em;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  border-radius: 1rem;
+  outline: 0;
+  width: 50%;
+  background: transparent;
+  text-align: center;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro .from1email, .main-wrapper > .inner-wrapper > .body-wrapper > .intro .hireme, .main-wrapper .get-mail > .body-wrapper > .intro .from1email, .main-wrapper .get-mail > .body-wrapper > .intro .hireme {
+  height: 3.6rem;
+  padding: 0 1.2rem;
+  color: #fff;
+  border: solid 1px #8F4066;
+  border-radius: 1rem;
+  font-size: 1.25em;
+  font-weight: 300;
+  letter-spacing: .25px;
+  background: transparent;
+  outline: 0;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro .from1email:focus, .main-wrapper .get-mail > .body-wrapper > .intro .from1email:focus {
+  border: solid 1px #c282a0;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro input.from1email::-webkit-input-placeholder, .main-wrapper .get-mail > .body-wrapper > .intro input.from1email::-webkit-input-placeholder {
+  color: #8F4066;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro input.from1email:-ms-input-placeholder, .main-wrapper .get-mail > .body-wrapper > .intro input.from1email:-ms-input-placeholder {
+  color: #8F4066;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro input.from1email::-ms-input-placeholder, .main-wrapper .get-mail > .body-wrapper > .intro input.from1email::-ms-input-placeholder {
+  color: #8F4066;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro input.from1email::placeholder, .main-wrapper .get-mail > .body-wrapper > .intro input.from1email::placeholder {
+  color: #8F4066;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro button.hireme, .main-wrapper .get-mail > .body-wrapper > .intro button.hireme {
+  background: #8F4066;
+  border: 0;
+  cursor: pointer;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+  margin-left: 10px;
+}
+
+.main-wrapper > .inner-wrapper > .body-wrapper > .intro button.hireme:hover, .main-wrapper .get-mail > .body-wrapper > .intro button.hireme:hover {
+  background: #c282a0;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+.main-wrapper > .inner-wrapper > .cat, .main-wrapper .get-mail > .cat {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-wrapper > .inner-wrapper > .cat > .cat-left, .main-wrapper > .inner-wrapper > .cat .cat-right, .main-wrapper .get-mail > .cat > .cat-left, .main-wrapper .get-mail > .cat .cat-right {
+  width: 50%;
+  text-align: center;
+  padding: 80px 30px 80px 100px;
+  border-top: 1px solid #2A2633;
+  border-bottom: 1px solid #2A2633;
+}
+
+.main-wrapper > .inner-wrapper > .cat > .cat-right, .main-wrapper .get-mail > .cat > .cat-right {
+  border-left: 1px solid #2A2633;
+  padding: 80px 100px 80px 30px;
+}
+
+.main-wrapper > .inner-wrapper > .cat img, .main-wrapper .get-mail > .cat img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.main-wrapper > .inner-wrapper > .cat > .cat-left h3, .main-wrapper > .inner-wrapper > .cat .cat-right h3, .main-wrapper .get-mail > .cat > .cat-left h3, .main-wrapper .get-mail > .cat .cat-right h3 {
+  color: #8A3A60 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em !important;
+  line-height: 1.625;
+  font-weight: 200;
+  margin-bottom: 20px !important;
+}
+
+.main-wrapper > .inner-wrapper > .cat > .cat-left p, .main-wrapper > .inner-wrapper > .cat .cat-right p, .main-wrapper .get-mail > .cat > .cat-left p, .main-wrapper .get-mail > .cat .cat-right p {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.025rem;
+  width: calc(100% + 0.025rem);
+  font-size: 1em !important;
+  line-height: 2;
+  font-weight: 200;
+}
+
+.main-wrapper > .inner-wrapper .cat-r-img, .main-wrapper .get-mail .cat-r-img {
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  background: #fff;
+  border-radius: 20px !important;
+}
+
+.main-wrapper > .inner-wrapper .cat-r-img > img, .main-wrapper .get-mail .cat-r-img > img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 20px !important;
+}
+
+.main-wrapper > .inner-wrapper > .price, .main-wrapper .get-mail > .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  margin: auto;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.02);
+          box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.02);
+}
+
+.main-wrapper > .inner-wrapper > .price .pp-inner, .main-wrapper .get-mail > .price .pp-inner {
+  padding: 5rem;
+  border: 0 !important;
+}
+
+.main-wrapper > .inner-wrapper > .price > .price-basic > .pp-inner .ph1, .main-wrapper > .inner-wrapper > .price .price-preium > .pp-inner .ph1, .main-wrapper .get-mail > .price > .price-basic > .pp-inner .ph1, .main-wrapper .get-mail > .price .price-preium > .pp-inner .ph1 {
+  text-transform: uppercase !important;
+  color: #8F4066 !important;
+  letter-spacing: 0.15rem !important;
+  font-size: 0.875em !important;
+  font-weight: 500 !important;
+  margin: 15px 0;
+}
+
+.main-wrapper > .inner-wrapper > .price > .price-basic > .pp-inner .ph2, .main-wrapper > .inner-wrapper > .price .price-preium > .pp-inner .ph2, .main-wrapper .get-mail > .price > .price-basic > .pp-inner .ph2, .main-wrapper .get-mail > .price .price-preium > .pp-inner .ph2 {
+  color: #FFFFFF !important;
+  font-size: 3.625em !important;
+  font-weight: 400 !important;
+  margin: 30px 0 !important;
+}
+
+.main-wrapper > .inner-wrapper > .price > .price-basic > .pp-inner .ph3, .main-wrapper > .inner-wrapper > .price .price-preium > .pp-inner .ph3, .main-wrapper .get-mail > .price > .price-basic > .pp-inner .ph3, .main-wrapper .get-mail > .price .price-preium > .pp-inner .ph3 {
+  color: #8F4066  !important;
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+}
+
+.main-wrapper > .inner-wrapper > .price > .price-basic > .pp-inner .php, .main-wrapper > .inner-wrapper > .price .price-preium > .pp-inner .php, .main-wrapper .get-mail > .price > .price-basic > .pp-inner .php, .main-wrapper .get-mail > .price .price-preium > .pp-inner .php {
+  color: rgba(255, 255, 255, 0.4) !important;
+  letter-spacing: 0.025rem !important;
+  font-size: 1em !important;
+  line-height: 2 !important;
+  font-weight: 200 !important;
+}
+
+.main-wrapper > .inner-wrapper > .hr2, .main-wrapper .get-mail > .hr2 {
+  width: 1px;
+  height: 100px;
+  background: #2A2633;
+  margin: auto;
+}
+
+.main-wrapper > .inner-wrapper > .testimonial, .main-wrapper .get-mail > .testimonial {
+  width: 60%;
+  max-width: 600px;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #2A2633;
+}
+
+.main-wrapper > .inner-wrapper > .testimonial .testimonial-innner, .main-wrapper .get-mail > .testimonial .testimonial-innner {
+  text-align: center;
+  padding: 60px 35px;
+  width: 100%;
+  height: 100%;
+}
+
+.main-wrapper > .inner-wrapper > .testimonial .testimonial-innner h3, .main-wrapper .get-mail > .testimonial .testimonial-innner h3 {
+  padding: 1.7rem 0;
+  color: rgba(255, 255, 255, 0.4) !important;
+  font-size: 1.5em !important;
+  font-weight: 200 !important;
+}
+
+.main-wrapper > .inner-wrapper > .testimonial .testimonial-innner p, .main-wrapper .get-mail > .testimonial .testimonial-innner p {
+  color: rgba(255, 255, 255, 0.4) !important;
+  font-size: 1em !important;
+  font-weight: 200 !important;
+}
+
+.main-wrapper > .inner-wrapper > .testimonial .testimonial-innner img, .main-wrapper .get-mail > .testimonial .testimonial-innner img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.main-wrapper > .get-mail {
+  width: 100%;
+}
+
+.main-wrapper > .get-mail .mail-intro {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent;
+  padding: 6rem 5rem;
+}
+
+.main-wrapper > .get-mail .mail-intro > h1 {
+  margin: 2rem 0;
+  color: #8A3A60 !important;
+}
+
+.main-wrapper > .get-mail .mail-intro > p {
+  margin: 2rem 0;
+  color: #8F4066;
+}
+
+.main-wrapper > .get-mail .mail-intro > button.mail-btn {
+  cursor: pointer;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+  margin-left: 10px;
+  width: 8.75rem;
+  line-height: 3.6rem;
+  font-weight: 300;
+  border-radius: 20px;
+  font-size: 1.12em;
+  border: 1px solid #8A3A60;
+  background: transparent;
+  color: #fff;
+}
+
+.main-wrapper > .get-mail .mail-intro > button.mail-btn:hover {
+  background: #c282a0;
+  border: 1px solid #c282a0;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+.main-wrapper .footer {
+  width: 100%;
+  height: 200px;
+  background: #1A1721;
+}
+
+.main-wrapper .footer .inner-footer {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.main-wrapper .footer .inner-footer p {
+  color: #8A3A60 !important;
+  font-size: 1em;
+  font-weight: 300 !important;
+}
+
+.main-wrapper .footer .inner-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-wrapper .footer .inner-footer li {
+  list-style: none;
+}
+
+.main-wrapper .footer .inner-footer a {
+  text-decoration: none;
+  text-align: center;
+  color: #8A3A60 !important;
+  font-size: 1.5em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #2A2633;
+  background: transparent;
+  margin: 20px;
+  display: inline-block;
+  text-align: center !important;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+.main-wrapper .footer .inner-footer a:hover {
+  border: 1px solid #c282a0;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+.main-wrapper .footer .inner-footer svg.svg-inline--fa.fa-twitter.fa-w-16,
+.main-wrapper .footer .inner-footer svg.svg-inline--fa.fa-instagram.fa-w-14,
+.main-wrapper .footer .inner-footer svg.svg-inline--fa.fa-facebook-f.fa-w-10 {
+  margin-top: 12px;
+}
+/*# sourceMappingURL=style.css.map */

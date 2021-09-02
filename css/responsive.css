@@ -1,0 +1,85 @@
+@media (max-width: 736px) {
+    .all-btn {
+        line-height: 0 !important;
+    }
+    .intro {
+        padding: 0 1rem !important;
+        padding-top: 7rem !important;
+    }
+    .intro h1,
+    .mail-intro h1 {
+        letter-spacing: -0.065625rem;
+        font-size: 2em !important;
+    }
+    .intro p {
+        font-size: 1em !important;
+    }
+    .from1email, .hireme, .mail-btn {
+        height: 2.5rem !important;
+        padding: 0 1rem !important;
+        font-size: 1em !important;
+    }
+    .mail-btn {
+        line-height: 0 !important;
+    }
+    button.hireme {
+        margin-top: 15px !important;
+        height: 2.5rem !important;
+    }
+    .cat {
+        display: inline-block !important;
+    }
+    .cat-left, .cat-right {
+        width: 100% !important;
+        padding: 2rem !important;
+    }
+    .cat-right {
+        border-left: 0 !important;
+        padding-top: 1rem !important;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+    .cat-r-img {
+        margin: auto !important;
+    }
+    .cat-r-img img {
+        text-align: center !important;
+    }
+    .pt-0 {
+        padding-top: 0 !important;
+    }
+    .price {
+        width: 80% !important;
+        max-width: 500px !important;
+        display: block !important;
+    }
+    .price-basic {
+        border-bottom: 1px solid #fff !important;
+    }
+    .pp-inner {
+    border-bottom: 1px solid #fff !important;
+    }
+    .mail-intro {
+        padding: 2rem 1rem !important;
+    }
+}
+@media (max-width: 800px) {
+    .pp-inner {
+        padding: 2rem !important;
+        border-bottom: 1px solid #fff !important;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+    .mail-intro {
+        padding: 2rem 1rem !important;
+    }
+    .price {
+        text-align: center !important;
+        width: 80% !important;
+        max-width: 500px !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+}
